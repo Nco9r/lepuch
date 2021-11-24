@@ -41,16 +41,21 @@ export default {
 <style scoped>
 
 .team {
-    background-color: var(--bck-light);
+    background-color: var(--green);
     margin-top: 50px;
     padding-bottom: 50px;
 }
 
 .title {
     text-align: center;
-    padding: 50px 1px 20px 1px;
+    padding: 50px 2px 20px 2px;
+
 }
 
+.title h2 {
+    color: var(--white);
+
+}
 .title hr {
     border: none;
     width: 40px;
