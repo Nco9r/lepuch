@@ -2,7 +2,7 @@
   <header>
     <div class="header_mobile">
       <div class="logo_header">
-        <img src="~assets/img/svg/logo_black.svg" alt="" />
+        <img src="~assets/img/svg/logo_white.svg" alt="" />
       </div>
       <div class="hamburger" @click="open = !open">
         <img src="~assets/img/svg/hamburger.svg" alt="">
@@ -15,7 +15,7 @@
       </div>
        <div class="hamburger second" @click="open = !open">
         <img src="~assets/img/svg/close_ha.svg" alt="">
-        <p>Fermer</p>
+        <p class="orange">Fermer</p>
       </div>
 
           </div>
@@ -89,7 +89,7 @@ export default {
 
 <style scoped>
 .header_mobile {
-  background-color: var(--bck);
+  background-color: var(--orange);
   position: fixed;
   top: 0;
   display: flex;
@@ -117,7 +117,7 @@ export default {
 
 .hamburger p {
     text-transform: uppercase;
-    color: var(--orange);
+    color: var(--white);
     font-weight: 700;
     font-size: 12px;
 }
@@ -184,6 +184,10 @@ export default {
     font-weight: bold;
     color: var(--heading);
     font-size: 18px;
+}
+
+.orange {
+    color: var(--orange)!important;
 }
 
 .item_rubriques {

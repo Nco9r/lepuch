@@ -43,7 +43,9 @@ export default {
 .team {
     background-color: var(--green);
     margin-top: 50px;
+    background-image: url('~assets/img/png/texture.png');
     padding-bottom: 50px;
+    background-size: 25%;
 }
 
 .title {
