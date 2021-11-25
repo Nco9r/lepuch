@@ -11,8 +11,8 @@
               <img src="~assets/img/svg/gironde.svg" alt="">
           </div>
           <div class="box_slide">
-              <img src="~assets/img/svg/slide_left.svg" alt="">
-              <img src="~assets/img/svg/slide_right.svg" alt="">
+              <img src="~assets/img/svg/left.svg" alt="">
+              <img src="~assets/img/svg/right.svg" alt="">
           </div>
       </div>
       <div class="block_right">
@@ -104,9 +104,9 @@ export default {}
 }
 
 .box_slide img {
-width: 40px;
-margin-right: 20px;
-margin-left: 20px;
+width: 50px;
+margin-right: 10px;
+margin-left: 10px;
 
 }
 </style>

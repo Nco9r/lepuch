@@ -9,7 +9,6 @@
        <Calendar-home/>
        <Team/>
        <Actus/>
-       <Discover/>
     </main>
   </div>
 </template>

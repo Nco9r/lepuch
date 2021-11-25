@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="61.757" height="61.757" viewBox="0 0 61.757 61.757">
+  <g id="Groupe_67" data-name="Groupe 67" transform="translate(-61.034 -3363.296)">
+    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(61.034 3363.296)" fill="#fff" stroke="#f36742" stroke-width="2">
+      <ellipse cx="30.879" cy="30.878" rx="30.879" ry="30.878" stroke="none"/>
+      <ellipse cx="30.879" cy="30.878" rx="29.879" ry="29.878" fill="none"/>
+    </g>
+    <g id="Layouts_V1" transform="translate(106.106 3381.43) rotate(90)">
+      <g id="Homepage_slider1" transform="translate(0 0)">
+        <g id="Stacked-Group" transform="translate(0 0)">
+          <g id="Group">
+            <g id="Groupe_2" data-name="Groupe 2">
+              <path id="Stroke-5" d="M0,0S9.269,4.635,12.745,17.38C16.221,4.635,25.491,0,25.491,0" transform="translate(0 11.007)" fill="rgba(0,0,0,0)" stroke="#f35f39" stroke-linejoin="bevel" stroke-width="2" fill-rule="evenodd"/>
+              <line id="Stroke-7" y1="27.95" transform="translate(12.742 0)" fill="none" stroke="#f35f39" stroke-linejoin="bevel" stroke-width="2"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -16,7 +16,7 @@
           </p>
 
           <p>
-            En 1984 je crée mon affixe DE LA FORGE DU PUCH. Depuis plus de 43
+            En 1984 je crée mon affixe <strong>DE LA FORGE DU PUCH</strong>. Depuis plus de 43
             ans je suis resté fidèle à cette race qui m’a donnée entière
             satisfaction tant à la chasse qu’à la compagnie.
           </p>

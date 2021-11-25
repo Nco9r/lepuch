@@ -22,10 +22,10 @@
 
           </div>
           <div class="slide_prev">
-              <img src="~assets/img/svg/slide_left.svg" alt="">
+              <img src="~assets/img/svg/left.svg" alt="">
           </div>
            <div class="slide_next">
-              <img src="~assets/img/svg/slide_right.svg" alt="">
+              <img src="~assets/img/svg/right.svg" alt="">
           </div>
       </div>
 
@@ -85,7 +85,7 @@ export default {
 }
 
 .slide_prev img {
-    width: 40px;
+    width: 50px;
 }
 
 .slide_next {
@@ -95,7 +95,7 @@ export default {
 }
 
 .slide_next img {
-    width: 40px;
+    width: 50px;
 }
 
 .img_card p{
@@ -111,6 +111,6 @@ export default {
 
 .description {
     margin-top: 10px;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 </style>

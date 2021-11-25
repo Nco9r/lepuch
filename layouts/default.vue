@@ -2,20 +2,24 @@
   <div>
     <the-header/>
     <nuxt/>
+    <the-footer/>
   </div>
 </template>
 
 <script>
+import TheFooter from '../components/Default/TheFooter.vue'
 import TheHeader from '../components/Default/TheHeader.vue'
 
 
 
 export default {
   components: {
-    TheHeader
+    TheHeader,
+     TheFooter
 
   },
-}
+
+   }
 </script>
 
 <style>
@@ -23,7 +27,8 @@ html {
   font-family: 'Termina', Times, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  line-height: 22px;
+  font-size: 12px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
@@ -62,8 +67,8 @@ h1, h2, h3, h4, h5 {
 }
 
 h2 {
-    font-size: 32px;
-  line-height: 42px;
+    font-size: 28px;
+  line-height: 38px;
 }
 
 
