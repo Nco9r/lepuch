@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "PORT=7767 nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
@@ -12,7 +12,8 @@
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.1",
     "gsap": "^3.8.0",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "vue-tiny-slider": "^0.1.39"
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.3.0",

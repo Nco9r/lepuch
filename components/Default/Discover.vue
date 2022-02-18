@@ -6,12 +6,11 @@
         Vous souhaitez en savoir plus sur notre quotidien et notre philosophie ?
         Venez à notre rencontre !
       </p>
-       <div class="btn">
-          <nuxt-link to='/'>
+      <div class="btn">
+        <nuxt-link to="/">
           <button>Contact</button>
-          </nuxt-link>
+        </nuxt-link>
       </div>
-
     </div>
   </section>
 </template>
@@ -28,6 +27,7 @@ export default {}
   height: 500px;
   margin-top: 50px;
   text-align: center;
+  margin-bottom: -50px;
 }
 
 .text_discover {
@@ -44,5 +44,35 @@ export default {}
 .text_discover p {
   color: var(--white);
   margin-top: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .discover {
+    background-image: url('~assets/img/png/discover.jpg');
+    background-size: cover;
+    background-position: 50%;
+    height: 400px;
+    margin: 100px auto;
+    text-align: center;
+  }
+
+  .text_discover h2 {
+  color: var(--white);
+  font-size: 42px;
+  line-height: 52px;
+  margin: auto;
+  width: 600px;
+}
+
+.text_discover p {
+  color: var(--white);
+
+  font-size: 16px;
+  width: 600px;
+  line-height: 26px;
+  margin: 20px auto;
+}
+
+
 }
 </style>

@@ -120,4 +120,44 @@ export default {
   font-weight: 700;
 }
 
+
+@media screen and (min-width: 1024px) {
+  .actus {
+    max-width: 900px;
+    margin: 100px auto;
+  }
+
+  .actus h2 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+
+.box_cards {
+ display: flex;
+ flex-flow: row;
+ justify-content: space-between;
+}
+
+
+.card {
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 20px;
+  width: 32%;
+  margin-bottom: 15px;
+}
+
+
+.card .img img {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+  box-shadow: 0px -1px 8px 4px rgba(0, 0, 0, 0.075);
+-webkit-box-shadow: 0px -1px 8px 4px rgba(0, 0, 0, 0.075);
+-moz-box-shadow: 0px -1px 8px 4px rgba(0, 0, 0, 0.075);
+  object-fit: cover;
+}
+}
+
 </style>

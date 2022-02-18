@@ -2,23 +2,31 @@
   <section class="story">
     <div class="block_left">
       <div class="title_story">
-        <h2>L’histoire de la forge du Puch<span class="orange">.</span></h2>
+        <h2>Le Chenil de la forge du Puch<span class="orange">.</span></h2>
         <div class="text_story">
           <p>
-            Mes deux premieres années de chasse m’ ont permis de découvrir et de
-            me passionner pour la chasse aux chiens courants.
+            Construit en 1984 , le chenil connait une première transformation en
+            2000 avec le coulage de la dalle béton , la construction des niches
+            en dur et de la salle à manger. En 2004 les grilles d'enceinte
+            jaunes remplacent le simple grillage plastifié vert.
           </p>
 
           <p>
-            Durant ce temps, j’ai eu l’occasion de voir chasser differentes
-            races de chiens. J ‘ai opté pour le Basset Artesien et en 1979 je
-            fais l’acquisition de ma première chienne SYBELLE.
+            En 2008 , contruction de la salle de mise bas avec chauffage intégré
+            permettant d'avoir une température constante, comprise entre 25 et
+            30 degrés,idéale pour la chienne et ses chiots.
           </p>
 
           <p>
-            En 1984 je crée mon affixe <strong>DE LA FORGE DU PUCH</strong>. Depuis plus de 43
-            ans je suis resté fidèle à cette race qui m’a donnée entière
-            satisfaction tant à la chasse qu’à la compagnie.
+            Enfin en 2009 , les grilles jaunes affaiblies par la corrosion font
+            place aux grilles plastifiées blanches.Par la meme occasion portails
+            et poteaux sont galvanisés.
+          </p>
+          <p>
+            Un poteau de 6 mètres de haut avec projecteur est installé afin de
+            pouvoir éclairer le chenil la nuit pour faciliter le nettoyage les
+            soirs d 'hiver et pour charger plus facilement les chiens le matin
+            au moment du départ pour la chasse.
           </p>
         </div>
         <div class="btn">
@@ -30,7 +38,7 @@
     </div>
     <div class="block_right">
       <div class="story_img">
-        <img src="~assets/img/png/media_2.png" alt="" />
+        <img src="~assets/img/png/chenil_2.jpg" alt="" />
       </div>
       <div class="item_story">
         <div class="item">
@@ -88,6 +96,8 @@ export default {}
 
 .story_img img {
   width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .item_story {
@@ -118,29 +128,27 @@ export default {}
 }
 
 @media screen and (min-width: 1024px) {
-  
-.story {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row;
-  max-width: 900px;
-  align-items: center;
-  margin: 30px auto;
-  padding: 0 15px;
-}
+  .story {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    max-width: 900px;
+    align-items: center;
+    margin: 30px auto;
+    padding: 0 15px;
+  }
 
-.block_left {
-  width: 46%;
-}
+  .block_left {
+    width: 46%;
+  }
 
-.title_story h2 {
-    font-size: 42px!important;
-    line-height: 52px!important;
-}
+  .title_story h2 {
+    font-size: 42px !important;
+    line-height: 52px !important;
+  }
 
-.block_right {
-  width: 48%;
-}
-
+  .block_right {
+    width: 48%;
+  }
 }
 </style>

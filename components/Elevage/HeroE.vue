@@ -2,14 +2,14 @@
   <section class="hero">
     <div class="content_hero">
       <div class="title_hero">
-        <h1>Meute de la forge du <span class="orange">puch</span>.</h1>
+                <h1>Élevage Bassets Artésiens Normand.</h1>
       </div>
       <div class="text_hero">
           <p>Découvrer la meute de la forge du puch, notre quotidien, notre meute et les amis de la forge du puch</p>
       </div>
       <div class="btn">
-          <nuxt-link to='/elevage-basset-artesien-normand'>
-          <button>L'élevage</button>
+          <nuxt-link to='/'>
+          <button>Histoire</button>
           </nuxt-link>
       </div>
       <div class="scroll">
@@ -35,7 +35,7 @@ export default {}
 .hero {
   width: 100%;
   height: 100vh;
-  background-image: url('~assets/img/png/media_1.jpg');
+  background-image: url('~assets/img/png/chenil.jpg');
   background-size: cover;
   background-position: 50%;
 }
